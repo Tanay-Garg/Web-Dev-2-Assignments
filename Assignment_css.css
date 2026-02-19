@@ -1,0 +1,145 @@
+body{
+    background: linear-gradient(to right, rgb(73, 134, 224), cyan);
+    font-family: Arial;
+}
+body>h1{
+    font-weight: 1500;
+    text-align: center;
+    color: white;
+}
+.main-container{
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+/* Add Event Styling */
+
+.add{
+    background-color: white;
+    padding: 20px;
+    padding-top: 0;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin-left: 250px;
+    transform: translateX(-20px);
+}
+.add button{
+    background: linear-gradient(to right, rgb(31, 44, 160), rgb(73, 73, 233));
+    color: white;
+    font-weight: 900;
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.25s ease;
+}
+.add h1{
+    color: rgb(79, 79, 211);
+}
+
+/* FORM STYLING */
+
+form{
+    display: flex;
+    flex-direction: column;
+    font-weight: 900;
+    font-size: 20px;
+}
+input, textarea, select{
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* Events Styling */
+
+.Events{
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    min-height: 465px;
+    width: 750px;
+}
+.Events button{
+    background: linear-gradient(to right, rgb(31, 44, 160), rgb(73, 73, 233));
+    color: white;
+    font-weight: 900;
+    width: 350px;
+    height: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.25s ease;
+}
+.Events h2{
+    font-weight: lighter;
+}
+
+/* button Hover Effect */
+
+button:hover{
+    cursor: pointer;
+    transform: translateY(-4px);
+}
+
+.Demo{
+    display: inline-block;
+    background-color: white;
+    transform: translateY(30px) translateX(230px);
+    width: 1075px;
+    height: 150px;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 50px;
+}
+
+/* JS DIV STYLING */
+
+#card1{
+    display: block;
+    width: 330px;
+    height: 220px;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: linear-gradient(to right, rgb(175, 231, 255), rgb(101, 157, 210));
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+#card1 h2{
+    margin-top: -2px;
+    display: inline-block;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: rgb(60, 127, 221);
+    color: white;
+    font-weight: bolder;
+    font-size: 16px;
+    border-radius: 20px;
+}
+#card1 p{
+    margin-top: -2px;
+    font-weight: 800;
+    color: rgb(63, 63, 63);
+}
+#card1 h1{
+    font-size: 25px;
+    font-weight: 900;
+}
+.inside{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.Demo-inside{
+    display: block;
+    background-color: rgb(218, 215, 215);
+    height: 40px;
+    padding: 2px;
+    padding-left: 15px;
+    padding-bottom: 20px;
+    font-weight: 800;
+}

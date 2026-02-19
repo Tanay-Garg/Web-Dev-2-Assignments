@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Assignment_css.css">
+</head>
+<body>
+    <h1>Smart Event Dashboard</h1>
+
+    <div class="main-container">
+        <div class="add">
+            <h1>Add New Event</h1>
+            <form id="eventform">
+                <label for="title">Event Title:</label>
+                <input type="text" id="title" name="" required>
+
+                <br>
+
+                <label for="date">Event Date:</label>
+                <input type="date" id="date" name="" required>
+
+                <br>
+
+                <label for="cat">Category:</label>
+                <select id="cat" name="">
+                    <option value="Conference">Conference</option>
+                    <option value="Activity">Activity</option>
+                    <option value="Class">Class</option>
+                </select>
+
+                <br>
+
+                <label for="Des">Description:</label>
+                <textarea id="Des" name="" required></textarea>
+
+                <br>
+
+                <button type="button" id="btn" onclick="Click()">Add Event</button>
+            </form>
+        </div>
+
+        <div class="Events">
+            <h1>My Events</h1>
+
+            <button type="button" onclick="Click2()">Clear All Events</button>
+            <button type="button" onclick="Click3(); Click4();">Add Sample Events</button>
+            <h2>No events yet. Add your first event!</h2>
+            <div class="inside">
+
+            </div>
+        </div>
+    </div>    
+
+    <div class="Demo">
+        <h1>DOM Manipulation Demo</h1>
+        <div class="Demo-inside">
+            <p id="keypressed">Press any key to continue...</p>
+        </div>
+    </div>
+    <script src="javascript.js"></script>
+</body>
+</html>
